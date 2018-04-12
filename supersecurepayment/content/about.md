@@ -21,6 +21,14 @@ We didn't enjoy our work at the bank, everything was so strict. But with cryptoc
 
 No more banks!
 
+# Connecting People
+We connect people from all around the globe with money. 
+
+* Have you been robbed at gunpoint? Don't hesitate to ask your friends to pay you using our services.
+* Need to transfer money to the other end of the world? Use us!
+
+# Thank you
+After all, you keep our indipendent project alive. And that's more important than every money in the world.
 
 
 Your's sincerely,
