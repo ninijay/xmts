@@ -1,0 +1,20 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme ="hugo-universal-theme"
+style = "blue"
+
+[params]
+	email = "example@example.com"
+	latitude = "-12.043333"
+    	longitude = "-77.028333"
+    	direction = "Desamparados Station, Distrito de Lima 15001, Peru"
+
+[[menu.main]]
+	name = "Contact"
+	url = "/contacts"
+	weight = 4
+
+[params.carousel]
+    enable = true
+
