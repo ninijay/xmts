@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Super Secure Payment Online"
 theme ="hugo-universal-theme"
 style = "blue"
 
@@ -9,6 +9,15 @@ style = "blue"
 	latitude = "-12.043333"
     	longitude = "-77.028333"
     	direction = "Desamparados Station, Distrito de Lima 15001, Peru"
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url  = "/about/"
+    weight = 2
 
 [[menu.main]]
 	name = "Contact"
