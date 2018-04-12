@@ -20,3 +20,11 @@ We are keen on keeping our missions goals which are:
 We didn't enjoy our work at the bank, everything was so strict. But with cryptocurrencies the game has changed. We want to create a safe environment to use it.
 
 No more banks!
+
+
+
+Your's sincerely,
+
+Fredrick Gunthenberg, CEO supersecurepayment.com
+
+![CEO](https://source.unsplash.com/h1BuNJZzpC8/660x405)
