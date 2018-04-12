@@ -18,3 +18,7 @@ style = "blue"
 [params.carousel]
     enable = true
 
+[params.testimonials]
+    enable = true
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
