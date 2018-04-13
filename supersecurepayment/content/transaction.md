@@ -7,7 +7,7 @@ keywords = ["FAQ","How do I","questions","what if"]
 Please enter the the transaction number below and click continue
 
 <form action="trans.php" method="post">
-  <input name="trans" value="Transaction Number">
+  <input name="trans" placeholder="Transaction Number">
   <button>Continue</button>
 </form>
 

@@ -3,30 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://supersecurepayment.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://supersecurepayment.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/contacts/</loc>
+    <loc>https://supersecurepayment.com/contacts/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://supersecurepayment.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://supersecurepayment.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/transaction/</loc>
+    <loc>https://supersecurepayment.com/transaction/</loc>
   </url>
   
 </urlset>

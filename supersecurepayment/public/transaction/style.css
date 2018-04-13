@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  background-color: #333;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+h5 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+}
+
+.download-btn {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.download {
+  fill: #028EFF;
+  stroke: #028EFF;
+  stroke-dashoffset: 10%;
+}
+
+.download--animate {
+  -webkit-animation: circle-animate-1 2s forwards, circle-animate-2 .5s 4s forwards;
+          animation: circle-animate-1 2s forwards, circle-animate-2 .5s 4s forwards;
+}
+
+.download-btn {
+  position: relative;
+  height: 140px;
+  width: 140px;
+}
+
+.bar {
+  stroke: #028EFF;
+}
+
+.bar--animate {
+  -webkit-animation-name: bar-animate;
+          animation-name: bar-animate;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.btn--icon {
+  transition: .3s;
+  position: absolute;
+  font-size: 54px;
+  left: 47px;
+  top: 40px;
+}
+
+.btn__arrow {
+  color: #fff;
+  opacity: 1;
+}
+
+.btn__arrow--animate {
+  -webkit-animation-name: arrow-animate;
+          animation-name: arrow-animate;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.btn__stop {
+  color: #028EFF;
+  opacity: 0;
+}
+
+.btn__stop--animate {
+  -webkit-animation-name: stop-animate;
+          animation-name: stop-animate;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.btn__done {
+  color: #fff;
+  opacity: 0;
+}
+
+.btn__done--animate {
+  -webkit-animation-name: done-animate;
+          animation-name: done-animate;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes arrow-animate {
+  0% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@keyframes arrow-animate {
+  0% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes stop-animate {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+@keyframes stop-animate {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes done-animate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes done-animate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes circle-animate-1 {
+  0% {
+    fill: #028EFF;
+    stroke: #028EFF;
+  }
+  100% {
+    fill: #fff;
+    stroke: #D1EAFE;
+  }
+}
+@keyframes circle-animate-1 {
+  0% {
+    fill: #028EFF;
+    stroke: #028EFF;
+  }
+  100% {
+    fill: #fff;
+    stroke: #D1EAFE;
+  }
+}
+@-webkit-keyframes circle-animate-2 {
+  0% {
+    fill: #fff;
+    stroke: #D1EAFE;
+  }
+  100% {
+    fill: #3bc27a;
+    stroke: #3bc27a;
+  }
+}
+@keyframes circle-animate-2 {
+  0% {
+    fill: #fff;
+    stroke: #D1EAFE;
+  }
+  100% {
+    fill: #3bc27a;
+    stroke: #3bc27a;
+  }
+}
+@-webkit-keyframes bar-animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    stroke-dashoffset: 565px;
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    stroke-dashoffset: 450px;
+  }
+  50% {
+    stroke-dashoffset: 350px;
+  }
+  75% {
+    stroke-dashoffset: 250px;
+  }
+  99% {
+    stroke-dashoffset: 20px;
+    stroke: #028EFF;
+  }
+  100% {
+    stroke-dashoffset: 5px;
+    stroke: #3bc27a;
+  }
+}
+@keyframes bar-animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    stroke-dashoffset: 565px;
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    stroke-dashoffset: 450px;
+  }
+  50% {
+    stroke-dashoffset: 350px;
+  }
+  75% {
+    stroke-dashoffset: 250px;
+  }
+  99% {
+    stroke-dashoffset: 20px;
+    stroke: #028EFF;
+  }
+  100% {
+    stroke-dashoffset: 5px;
+    stroke: #3bc27a;
+  }
+}

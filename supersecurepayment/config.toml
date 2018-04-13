@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://supersecurepayment.com/"
 languageCode = "en-us"
 title = "Super Secure Payment Online"
 theme ="hugo-universal-theme"
