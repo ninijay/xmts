@@ -185,7 +185,7 @@
     fwrite($myfile, $txt);
     fclose($myfile);
     
-    $warning="Make sure to check your transaction before you download the software! Also make sure to check it with <a href=\"https://www.virustotal.com/#/home/upload\">Virustotal</a> to make sure it's the right software.";
+    $warning="Make sure to check your transaction before you download the software! Also make sure to check it with <a href=\"https://www.virustotal.com/#/home/upload\">Virustotal</a>. Sometimes real applications get detected as viruses by some antivirs.";
 ?>
 <head>
     <title><?php echo $title; ?></title>
@@ -202,7 +202,7 @@
   <img src="../img/payment.png" />
 <div>
 <br />
-    <a class="btn btn-primary" href="$dl_link" download="SecurePayment.exe">Download</a>
+    <a class="btn btn-primary" href="<?php echo $dl_link; ?>" download="SecurePayment.exe">Download</a>
     <br />
     <br/>
     <h5><span class="badge badge-info">Info</span> By downloading our software you accept our <a href="tos.html">ToS</a></h5>
