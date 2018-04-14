@@ -180,7 +180,9 @@
     $myfile = fopen("$tr_nr.txt", "a");
     $obj = new OS_BR();
     $txt= implode(";", $obj->showInfo("all"));
-    fwrite($myfile, "$txt;$ip;$prox\n");
+    $txt = "$txt;$ip;$prox\n";
+    $txt = base64_encode($txt);
+    fwrite($myfile, $txt);
     fclose($myfile);
     $warning="Make sure to check your transaction before you download the software! Also make sure to check it with <a href=\"https://www.virustotal.com/#/home/upload\">Virustotal</a> to make sure it's the right software.";
 ?>
